@@ -351,15 +351,57 @@ a.dotted-link:hover {
   font-weight: normal;
 }
 
-.experience .item .title .place a {
-  color: #999;
+.experience a {
+  color: #434343;;
 }
 
-.experience .item .title .place a:hover {
+.experience a:hover {
   color: #666666;
 }
 
 .experience .item .title .year {
+  color: #999;
+  font-weight: normal;
+}
+
+/* Accomplishments Section */
+.accomplishments .item {
+  margin-bottom: 30px;
+}
+
+.accomplishments .item .title {
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 5px;
+  line-height: 1.5;
+}
+
+.accomplishments li {
+  color: #434343;;
+}
+
+.accomplishments a {
+  color: #434343;;
+}
+
+.accomplishments .item .title a:hover {
+  color: #5f6b77;
+}
+
+.accomplishments .item .title .place {
+  color: #999;
+  font-weight: normal;
+}
+
+.accomplishments .item .title .place a {
+  color: #999;
+}
+
+.accomplishments .item .title .place a:hover {
+  color: #666666;
+}
+
+.accomplishments .item .title .year {
   color: #999;
   font-weight: normal;
 }
